@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/calculator.css">
+    <title>lesson 10</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="text">
+            <p>What he found is that the body is capable of burning body fat to use for energy at a maximum rate of 31 calories per lb of body fat per day.
+            </p>
+        </div>
+        <form action="">
+            <fieldset> Pounds of fat Calculator
+                <label for="weight">
+                    <input 
+                    type="number" 
+                    name="weight" 
+                    id="weight"
+                    min="1"
+                    required
+                    placeholder="Weight"
+                    >
+                </label>
+                <label for="bodyFatPercentage">
+                    <input 
+                    type="number" name="bodyFatPercentage" id="bodyFatPercentage"
+                    min="1"
+                    required
+                    placeholder="Body fat %"
+                    >
+                </label>
+                <button id="calculatePounsOfFatbtn">Calculate Pounds of fat</button>
+                <div>
+                    <h3 id="lbsOfFatDisplay"></h3>
+                </div>
+            </fieldset>
+            <div>
+                <h3 id="DailyCaloricDeficitHolder"></h3>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+    <script src='script/calculator.js'></script>
+</body>
+</html>
